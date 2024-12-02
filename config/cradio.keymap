@@ -16,7 +16,7 @@
     release-after-ms = <2000>;
     quick-release;
     lazy;
-}
+};
 
 / {
     chosen {
