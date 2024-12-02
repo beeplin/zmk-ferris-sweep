@@ -8,6 +8,10 @@
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 800  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
+&lt {
+    flavor = "hold-preferred";
+};
+
 / {
     chosen {
         zmk,charmap = &charmap_us;
