@@ -32,12 +32,17 @@
         };
     };
     behaviors {
-        ls: layer_stick {
+        shft_caps: shft_caps {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            bindings = <&sk LSHFT>, <&kp CAPS>;
+        };
+        lssc: layer_stick_shft_caps {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
-            bindings = <&mo>, <&sk>;
+            bindings = <&mo>, <&shft_caps>;
         };        
         hs: hold_stick {
             compatible = "zmk,behavior-hold-tap";
@@ -88,7 +93,7 @@
 &kp Q            &kp W            &kp E            &kp R            &kp T            &kp Y            &kp U            &kp I            &kp O            &kp P
 &kp A            &kp S            &kp D            &kp F            &kp G            &kp H            &kp J            &kp K            &kp L            &kp SEMI
 &kp Z            &kp X            &kp C            &kp V            &kp B            &kp N            &kp M            &kp COMMA        &kp DOT          &kp FSLH
-                                                   &lt 1 ESC        &kp SPACE        &kp ENTER        &ls 2 LSHFT >;
+                                                   &lt 1 ESC        &kp SPACE        &kp ENTER        &lssc 2 LSHFT >;
         };
         layer1 {
             bindings = <
