@@ -32,11 +32,6 @@
         };
     };
     behaviors {
-        mo1_esc_space: mo1_esc_space {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            bindings = <&lt 1 ESC>, <&kp SPACE>;
-        };
         ls: layer_stick {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -94,7 +89,7 @@
                  &kp Q            &kp W            &kp E            &kp R            &kp T                             &kp Y            &kp U            &kp I            &kp O            &kp P
                  &kp A            &kp S            &kp D            &kp F            &kp G                             &kp H            &kp J            &kp K            &kp L            &kp SEMI
                  &kp Z            &kp X            &kp C            &kp V            &kp B                             &kp N            &kp M            &kp COMMA        &kp DOT          &kp FSLH
-                                                                    &mo1_esc_space   &hs LSHFT LSHFT                   &kp SPACE        &lt 2 CAPS >;
+                                                                    &lt 1 ESC        &mt LSHFT SPACE                   &kp SPACE        &lt 2 CAPS >;
 
         };
         layer1 {
