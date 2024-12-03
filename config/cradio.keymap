@@ -105,8 +105,8 @@
             display-name = "RAISE";
             bindings = <
                  &kp EXCL         &kp AT           &kp POUND        &kp DLLR         &kp PRCNT                         &kp CARET        &kp AMPS         &kp ASTRK        &kp DQT          &kp BSLH
-                 &kp GRAVE        &kp LBKT         &kp LBRC         &kp LPAR         &kp C_BRI_UP                      &kp PLUS         &kp MINUS        &kp EQUAL        &kp SQT          &kp COLON
-                 &kp TILDE        &kp RBKT         &kp RBRC         &kp RPAR         &kp C_BRI_DN                      &kp PIPE         &kp UNDER        &kp LT           &kp GT           &kp QMARK
+                 &kp GRAVE        &kp LBRC         &kp LBKT         &kp LPAR         &kp C_BRI_UP                      &kp PLUS         &kp MINUS        &kp EQUAL        &kp SQT          &kp COLON
+                 &kp TILDE        &kp RBRC         &kp RBKT         &kp RPAR         &kp C_BRI_DN                      &kp PIPE         &kp UNDER        &kp LT           &kp GT           &kp QMARK
                                                                     &mo 3            &kp K_APP                         &default_report  &none >;
         };
                                                                     // &mo 3            &kp K_APP                         &kp INS          &none >;
