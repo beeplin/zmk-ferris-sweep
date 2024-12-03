@@ -98,7 +98,7 @@
                  &kp TAB          &kp BSPC         &kp DEL          &kp HOME         &kp END                           &kp C_PREV       &kp N7           &kp N8           &kp N9           &kp C_VOL_UP
                  &kp ENTER        &hs LGUI LGUI    &hs LALT LALT    &hs LCTRL LCTRL  &kp PG_UP                         &kp C_PLAY_PAUSE &kp N4           &kp N5           &kp N6           &kp C_MUTE
                  &kp LEFT         &kp UP           &kp DOWN         &kp RIGHT        &kp PG_DN                         &kp C_NEXT       &kp N1           &kp N2           &kp N3           &kp C_VOL_DN
-                                                                    &none            &bootloader                       &hc LSHFT CAPS   &kp N0 >;
+                                                                    &none            &kp PRINTSCREEN                   &hc LSHFT CAPS   &kp N0 >;
 
         };
         layer2 {
@@ -116,7 +116,7 @@
                  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                      &bt BT_CLR       &kp F7           &kp F8           &kp F9           &kp F12
                  &msc SCRL_LEFT   &msc SCRL_UP     &msc SCRL_DOWN   &msc SCRL_RIGHT  &mkp LCLK                         &default_report  &kp F4           &kp F5           &kp F6           &kp F11
                  &mmv MOVE_LEFT   &mmv MOVE_UP     &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &mkp RCLK                         &out OUT_TOG     &kp F1           &kp F2           &kp F3           &kp F10
-                                                                    &none            &none                             &none            &none >;
+                                                                    &none            &bootloader                       &bootloader      &none >;
 
         };
     };
