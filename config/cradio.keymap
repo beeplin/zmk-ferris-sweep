@@ -100,7 +100,7 @@
                  &kp TAB          &kp BSPC         &kp DEL          &kp HOME         &kp END                           &kp INS          &kp N9           &kp N0           &kp C_BRI_DN     &kp C_BRI_UP
                  &kp ENTER        &hs LGUI LGUI    &hs LALT LALT    &hs LCTRL LCTRL  &kp PG_UP                         &win_sleep       &kp N1           &kp N2           &kp N3           &kp N4 
                  &kp LEFT         &kp UP           &kp DOWN         &kp RIGHT        &kp PG_DN                         &kp K_APP        &kp N5           &kp N6           &kp N7           &kp N8 
-                                                                    &none            &default_report                   &hcw LSHFT CAPS  &mo 3 >;
+                                                                    &none            &default_report                   &mt LSHFT CAPS   &lcw 3 CAPS >;
 
         };
         layer2 {
@@ -108,8 +108,8 @@
             bindings = <
                  &kp EXCL         &kp AT           &kp POUND        &kp DLLR         &kp PRCNT                         &kp CARET        &kp AMPS         &kp ASTRK        &kp MINUS        &kp PLUS
                  &kp GRAVE        &kp LBRC         &kp LBKT         &kp LPAR         &kp C_PREV                        &kp C_VOL_UP     &hs RCTRL RCTRL  &hs LALT LALT    &hs RGUI RGUI    &kp SQT
-                 &kp TILDE        &kp RBRC         &kp RBKT         &kp RPAR         &kp C_NEXT                        &kp C_VOL_DN     &kp EQUAL        &kp PIPE         &kp BSLH         &kp DQT
-                                                                    &kp UNDER        &kp C_PLAY_PAUSE                  &kp C_MUTE       &none >;
+                 &kp TILDE        &kp RBRC         &kp RBKT         &kp RPAR         &kp C_NEXT                        &kp C_VOL_DN     &kp UNDER        &kp PIPE         &kp BSLH         &kp DQT
+                                                                    &kp EQUAL        &kp C_PLAY_PAUSE                  &kp C_MUTE       &none >;
 
         };
         layer3 {
