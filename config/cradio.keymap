@@ -47,6 +47,7 @@
         lcw: layer_capsword {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
+            tapping-term-ms = <200>;
             flavor = "hold-preferred";
             bindings = <&mo>, <&caps_word>;      
         };
