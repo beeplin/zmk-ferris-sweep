@@ -97,9 +97,9 @@
         layer1 {
             display-name = "LOWER";
             bindings = <
-                 &kp TAB          &kp BSPC         &kp DEL          &kp HOME         &kp END                           &kp INS          &kp N9           &kp N0           &kp K_APP        &win_sleep 
-                 &kp ENTER        &hs LGUI LGUI    &hs LALT LALT    &hs LCTRL LCTRL  &kp PG_UP                         &kp C_BRI_UP     &kp N1           &kp N2           &kp N3           &kp N4 
-                 &kp LEFT         &kp UP           &kp DOWN         &kp RIGHT        &kp PG_DN                         &kp C_BRI_DN     &kp N5           &kp N6           &kp N7           &kp N8 
+                 &kp TAB          &kp BSPC         &kp DEL          &kp HOME         &kp END                           &kp INS          &kp N9           &kp N0           &kp C_BRI_DN     &kp C_BRI_UP
+                 &kp ENTER        &hs LGUI LGUI    &hs LALT LALT    &hs LCTRL LCTRL  &kp PG_UP                         &win_sleep       &kp N1           &kp N2           &kp N3           &kp N4 
+                 &kp LEFT         &kp UP           &kp DOWN         &kp RIGHT        &kp PG_DN                         &kp K_APP        &kp N5           &kp N6           &kp N7           &kp N8 
                                                                     &none            &default_report                   &hcw LSHFT CAPS  &mo 3 >;
 
         };
