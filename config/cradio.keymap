@@ -63,7 +63,7 @@
             #binding-cells = <2>;
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
-            bindings = <&kp>, <&msc>;
+            bindings = <&kp>, <&mmv>;
         };
         hcw: hold_capsword {
             compatible = "zmk,behavior-hold-tap";
@@ -97,9 +97,9 @@
         layer1 {
             display-name = "LOWER";
             bindings = <
-                 &kp TAB          &kp BSPC         &kp DEL          &kp K_APP        &kp  PRINTSCREEN                  &kp INS          &kp N9           &kp N0           &none            &win_sleep
-                 &kp ENTER        &hs LGUI LGUI    &hs LALT LALT    &hs LCTRL LCTRL  &kp PG_UP                         &kp HOME         &kp N1           &kp N2           &kp N3           &kp N4 
-                 &kp LEFT         &kp UP           &kp DOWN         &kp RIGHT        &kp PG_DN                         &kp END          &kp N5           &kp N6           &kp N7           &kp N8 
+                 &kp TAB          &kp BSPC         &kp DEL          &kp HOME         &kp END                           &kp INS          &kp N9           &kp N0           &kp K_APP        &win_sleep 
+                 &kp ENTER        &hs LGUI LGUI    &hs LALT LALT    &hs LCTRL LCTRL  &kp PG_UP                         &kp C_BRI_UP     &kp N1           &kp N2           &kp N3           &kp N4 
+                 &kp LEFT         &kp UP           &kp DOWN         &kp RIGHT        &kp PG_DN                         &kp C_BRI_DN     &kp N5           &kp N6           &kp N7           &kp N8 
                                                                     &none            &default_report                   &hcw LSHFT CAPS  &mo 3 >;
 
         };
@@ -116,7 +116,7 @@
             display-name = "ADJUST";
             bindings = <
                  &mmv MOVE_LEFT   &mmv MOVE_UP     &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &bt BT_SEL 0                      &bt BT_SEL 3     &kp F9           &kp F10          &kp F11          &kp F12
-                 &hw LSHFT WLEFT  &hw LGUI WUP     &hw LALT WDOWN   &hw LCTRL WRIGHT &bt BT_SEL 1                      &bt BT_SEL 4     &kp F1           &kp F2           &kp F3           &kp F4
+                 &hw LSHFT MOVE_LEFT   &hw LGUI WUP     &hw LALT WDOWN   &hw LCTRL WRIGHT &bt BT_SEL 1                      &bt BT_SEL 4     &kp F1           &kp F2           &kp F3           &kp F4
                  &default_report  &mkp MCLK        &mkp RCLK        &mkp LCLK        &bt BT_SEL 2                      &bt BT_CLR       &kp F5           &kp F6           &kp F7           &kp F8
                                                                     &none            &bootloader                       &out OUT_TOG     &none >;
 
