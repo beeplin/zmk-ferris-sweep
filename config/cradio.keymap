@@ -72,13 +72,13 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&default_report>, <&bootloader>;
-            mods = <(MOD_LCTRL)>;
+            mods = <(MOD_LCTL)>;
         };
         outtog_reload {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&out OUT_TOG>, <&bootloader>;
-            mods = <(MOD_LCTRL)>;
+            mods = <(MOD_LCTL)>;
         };
     };
     macros {
