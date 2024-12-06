@@ -68,13 +68,13 @@
             tapping-term-ms = <200>;
             bindings = <&kp>, <&caps_word>;
         };
-        report_reload: {
+        report_reload {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&default_report>, <&bootloader>;
             mods = <(MOD_LCTRL)>;
         };
-        outtog_reload: {
+        outtog_reload {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&out OUT_TOG>, <&bootloader>;
