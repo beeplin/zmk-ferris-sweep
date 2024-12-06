@@ -131,7 +131,6 @@
                  &bt BT_CLR_ALL   &bt BT_PRV       &bt BT_NXT       &bt BT_CLR       &default_report                   &out OUT_TOG     &none            &none            &none            &none
                                                                     &bootloader      &none                             &none            &bootloader >;
 
-
         };
     };
 };
