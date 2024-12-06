@@ -97,9 +97,9 @@
         layer1 {
             display-name = "LOWER";
             bindings = <
-                 &kp TAB          &kp BSPC         &kp DEL          &kp HOME         &kp END                           &kp INS          &kp N9           &kp N0           &kp C_BRI_DN     &kp C_BRI_UP
-                 &kp ENTER        &hs LGUI LGUI    &hs LALT LALT    &hs LCTRL LCTRL  &kp PG_UP                         &win_sleep       &kp N1           &kp N2           &kp N3           &kp N4 
-                 &kp LEFT         &kp UP           &kp DOWN         &kp RIGHT        &kp PG_DN                         &kp K_APP        &kp N5           &kp N6           &kp N7           &kp N8 
+                 &kp TAB          &kp BSPC         &kp DEL          &kp HOME         &kp END                           &kp INS          &kp N1           &kp N0           &kp C_BRI_DN     &kp C_BRI_UP
+                 &kp ENTER        &hs LGUI LGUI    &hs LALT LALT    &hs LCTRL LCTRL  &kp PG_UP                         &win_sleep       &kp N2           &kp N3           &kp N4           &kp N5
+                 &kp LEFT         &kp UP           &kp DOWN         &kp RIGHT        &kp PG_DN                         &kp K_APP        &kp N6           &kp N7           &kp N8           &kp N9
                                                                     &none            &default_report                   &mt LSHFT CAPS   &lcw 3 CAPS >;
 
         };
@@ -115,9 +115,9 @@
         layer3 {
             display-name = "ADJUST";
             bindings = <
-                 &mmv MOVE_LEFT   &mmv MOVE_UP     &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &bt BT_SEL 0                      &bt BT_SEL 3     &kp F9           &kp F10          &kp F11          &kp F12
-                 &hmk LSHFT MB4   &hmk LGUI MB5    &hmk LALT RCLK   &hmk LCTRL LCLK  &bt BT_SEL 1                      &bt BT_SEL 4     &kp F1           &kp F2           &kp F3           &kp F4
-                 &msc SCRL_LEFT   &msc SCRL_UP     &msc SCRL_DOWN   &msc SCRL_RIGHT  &bt BT_SEL 2                      &bt BT_CLR       &kp F5           &kp F6           &kp F7           &kp F8
+                 &mmv MOVE_LEFT   &mmv MOVE_UP     &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &bt BT_SEL 0                      &bt BT_SEL 3     &kp F1           &kp F10          &kp F11          &kp F12
+                 &hmk LSHFT MB4   &hmk LGUI MB5    &hmk LALT RCLK   &hmk LCTRL LCLK  &bt BT_SEL 1                      &bt BT_SEL 4     &kp F2           &kp F3           &kp F4           &kp F5
+                 &msc SCRL_LEFT   &msc SCRL_UP     &msc SCRL_DOWN   &msc SCRL_RIGHT  &bt BT_SEL 2                      &bt BT_CLR       &kp F6           &kp F7           &kp F8           &kp F9
                                                                     &none            &bootloader                       &out OUT_TOG     &none >;
 
         };
